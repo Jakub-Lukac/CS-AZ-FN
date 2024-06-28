@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS-AZ-FN-Functions", "CS-AZ-FN-Functions.csproj", "{8DE1188F-3EFC-45E1-A1A4-3431097C7D0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DE1188F-3EFC-45E1-A1A4-3431097C7D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE1188F-3EFC-45E1-A1A4-3431097C7D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE1188F-3EFC-45E1-A1A4-3431097C7D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE1188F-3EFC-45E1-A1A4-3431097C7D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EA667C1-3B25-4A92-9343-42C66FE8B078}
+	EndGlobalSection
+EndGlobal

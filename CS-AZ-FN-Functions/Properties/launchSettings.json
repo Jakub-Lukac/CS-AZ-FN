@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CS_AZ_FN_Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7091",
+      "launchBrowser": false
+    }
+  }
+}
