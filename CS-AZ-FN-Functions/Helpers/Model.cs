@@ -12,8 +12,7 @@ namespace CS_AZ_FN_Functions.Helpers
         public string appId { get; set; }
         public string appSecret { get; set; }
         public string userId { get; set; }
-
-        public string groupId { get; set; }
+        public string[] groups { get; set; }
         public string eventHubConnectionString { get; set; }
         public string eventHubName { get; set; }
 
@@ -25,6 +24,8 @@ namespace CS_AZ_FN_Functions.Helpers
 
             eventHubConnectionString = Environment.GetEnvironmentVariable("CONF_EVENTHUB_CONNECTION_STRING");
             eventHubName = Environment.GetEnvironmentVariable("CONF_EVENTHUB_NAME");
+
+            groups = Environment.GetEnvironmentVariable("GROUPS").Split(",");
         }
     }
 }
