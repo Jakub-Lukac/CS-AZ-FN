@@ -25,8 +25,8 @@ namespace CS_AZ_FN_Functions
 
             var parameters = new Model();
 
-            var graphClient = _code.GetAuthenticatedGraphClient(parameters.tenantId, 
-                parameters.appId, "APP SECRET");
+            var graphClient = _code.GetAuthenticatedGraphClient("TENANT ID", 
+                "CLIENT ID", "APP SECRET");
 
             // Testing
             var result = await _code.GetUser(graphClient, "{User ID}");
