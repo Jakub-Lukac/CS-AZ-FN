@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,11 +10,16 @@ namespace CS_AZ_FN_Functions.Helpers
     public class Model
     {
         public string tenantId { get; set; }
+        [JsonIgnore]
         public string appId { get; set; }
+        [JsonIgnore]
         public string appSecret { get; set; }
         public string userId { get; set; }
         public string[] groups { get; set; }
+
+        [JsonIgnore]
         public string eventHubConnectionString { get; set; }
+        [JsonIgnore]
         public string eventHubName { get; set; }
 
         public Model()
