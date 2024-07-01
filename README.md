@@ -6,5 +6,8 @@ Demo to showcase how to connect Azure `Time Trigger Function` with `Event Hub Tr
 
 ## Time Trigger Function
 
-To specify when your Azure Function should run using a `CRON expression`, you can use the `TimerTrigger attribute` in Azure Functions. You can read more on [CRON](https://en.wikipedia.org/wiki/Cron)
-Function goes through specified groups and lists all the users within these groups. Then it creates EventData object containing serialized User object as JSON and if possible adds it to the batch.
+To specify when your Azure Function should run using a `CRON expression`, you can use the `TimerTrigger attribute` in Azure Functions. You can read more on [CRON](https://en.wikipedia.org/wiki/Cron). Function goes through specified groups and lists all the users within these groups. Then it creates EventData object containing serialized User object as JSON and if possible adds it to the batch.
+
+## Event Hub Function
+
+This Azure Function triggers upon receiving events from an Event Hub. It `processes each event individually` and retrieves the user's Display Name using the `Graph API` based on the extracted UserID.
