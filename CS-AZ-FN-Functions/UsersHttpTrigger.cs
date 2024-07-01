@@ -29,7 +29,7 @@ namespace CS_AZ_FN_Functions
                 parameters.appId, parameters.appSecret);
 
             // Testing
-            var result = await _code.GetUser(graphClient, parameters.userId);
+            var result = await _code.GetUser(graphClient, "{User ID}");
 
             return new OkObjectResult(result.DisplayName);
         }
