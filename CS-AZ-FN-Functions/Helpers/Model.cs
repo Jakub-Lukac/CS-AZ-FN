@@ -14,6 +14,7 @@ namespace CS_AZ_FN_Functions.Helpers
         public string appId { get; set; }
         [JsonIgnore]
         public string appSecret { get; set; }
+        [JsonIgnore]
         public string userId { get; set; }
         public string[] groups { get; set; }
 
